@@ -601,7 +601,7 @@ class Ui(QtWidgets.QMainWindow):
                 
                 print(counter,self.progress.value())
                 if 99==self.progress.value() and counter==0:
-                    print("buraya girdi")
+            
                     self.progress.setValue(0)
                     counter+=1
                     msg = QtWidgets.QMessageBox()
@@ -614,7 +614,7 @@ class Ui(QtWidgets.QMainWindow):
                     msg.exec_()
                     
                 elif 100<=self.progress.value() and counter==0:
-                    print("counter *")
+                  
                     counter+=1
                     self.progress.setValue(0)
                     msg = QtWidgets.QMessageBox()
