@@ -1,0 +1,8 @@
+#Cx Freeze for setup
+cx_freeze==6.5.3
+#PyQt5
+PyQt5==5.15.2
+#Open CV for Image Processing
+cv2==4.5.1.48
+#Imutils
+imutils==0.5.4
